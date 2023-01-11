@@ -1,0 +1,15 @@
+title		0
+original_title	1
+year		2
+genre		3
+duration		4
+country		5
+language		6
+votes		7
+users_review	8
+critics_review	9
+
+PIG
+Q1) display the details of the movie with top 5 longest duration
+Q2) display the movie title from genre 'Fantasy' having 400+ votes, 8+ rating from user and 7+ from critics
+Q3) display the details of movies that start from "The" and are from county "USA"

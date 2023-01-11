@@ -1,0 +1,9 @@
+d:
+cd jcode/salary
+hadoop com.sun.tools.javac.Main *.java
+jar cf JWC.jar *.class
+hadoop dfs -mkdir /JWC
+hadoop dfs -put vehicle.csv /JWC/vehicle.csv
+hadoop jar JWC.jar JWordCount /JWC/vehicle.csv /JWC/out.csv
+
+hadoop dfs -cat /JWC/salout.csv/part-r-00000
